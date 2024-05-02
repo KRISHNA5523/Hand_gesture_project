@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('C:/Users/krishna/dummy_project/app/templates/back.jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            margin-top: 20px;
+            color: #666666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Hand Gesture Project</h1>
+        <p>Explore the fascinating world of hand gestures!</p>
+        <form action="/run_hand_gesture" method="post">
+            <button type="submit">Run Hand Gesture Project</button>
+        </form>
+        <footer>Created By: KRISHNA BN &copy; 2024</footer>
+    </div>
+    <!-- <div class="container">
+        <h1>Welcome to the Hand Gesture Project</h1>
+        <p>Explore the fascinating world of hand gestures!</p>
+        <form action="/run_hand_gesture" method="post">
+            <button type="submit">Run Hand Gesture Project 2</button>
+        </form>
+        <footer>Created By: KRISHNA BN &copy; 2024</footer>
+    </div> -->
+</body>
+</html>
